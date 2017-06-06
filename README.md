@@ -2,6 +2,9 @@
 
 Sistema de Eventos encomendado pela Morena.
 
+[![Build Status](https://travis-ci.org/pauloh06/eventex.svg?branch=master)](https://travis-ci.org/pauloh06/eventex)
+[![Code Health](https://landscape.io/github/pauloh06/eventex/master/landscape.svg?style=flat)](https://landscape.io/github/pauloh06/eventex/master)
+
 ## Como desenvolver?
 
 1. Clone o repositório
