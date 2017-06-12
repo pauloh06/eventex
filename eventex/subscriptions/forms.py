@@ -15,3 +15,12 @@ class SubscriptionForm(forms.Form):
     cpf = forms.CharField(label='CPF', validators=[validate_cpf])
     email = forms.EmailField(label='Email')
     phone = forms.CharField(label='Telefone')
+
+    def clean_name(self):
+        # ex: PAULO henrique
+        name = self.cleaned_data['name']
+        words = []
+
+        # this is a list comprehension
+        words = [w.capitalize() for w in name.split()]
+        return ' '.join(words)
