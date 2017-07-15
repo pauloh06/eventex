@@ -12,7 +12,7 @@ class SpeakerModelTest(TestCase):
             photo = 'http://hbn.link/hopper-pic',
             description = 'Programadora e almirante.'
         )
-        
+
     def test_create(self):
         self.assertTrue(Speaker.objects.exists())
 
